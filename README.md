@@ -43,4 +43,4 @@ Compare o resultado com o checksum publicado na mesma release e com o mostrado n
 
 **Não adicione os executáveis ao Git.** O instalador deve ser anexado como asset de uma GitHub Release. Para a versão atual, os assets estão em `dist/0.1.0-alpha.1/`: o Setup, seu `.sha256` e `release.json`.
 
-O origin deste repositório é https://github.com/marcelocorni/happytreenode-releases.git. Para preparar os assets de uma versão em rascunho, use `scripts/Upload-Draft.ps1` com a autenticação existente do Git Credential Manager. O script confere os hashes e não publica a release. A troca do endereço de download no Portal é uma etapa separada.
+O origin deste repositório é https://github.com/marcelocorni/happytreenode-releases.git. Para preparar os assets de uma versão em rascunho, use `scripts/Upload-Draft.ps1` com a autenticação existente do Git Credential Manager. O script confere os hashes e não publica a release.
