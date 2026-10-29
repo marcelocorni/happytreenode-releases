@@ -1,0 +1,22 @@
+# Installers belong to GitHub Release assets, never Git history.
+/dist/
+*.exe
+*.msi
+*.zip
+*.7z
+
+# Local configuration and credentials
+.env
+.env.*
+*.pfx
+*.p12
+*.clixml
+*.key
+credentials.json
+secrets.json
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
