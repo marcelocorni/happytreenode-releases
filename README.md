@@ -23,7 +23,7 @@ Suporte: suporte@happytreenode.com.br
 
 Os instaladores são disponibilizados na seção **Releases** deste repositório. Baixe o arquivo `.exe` da versão desejada e execute-o. O Setup oferece atalhos para Cliente, Servidor Local e desinstalação.
 
-A versão `0.1.0-alpha.1` está em validação. O instalador ainda não possui assinatura Authenticode de publicador.
+A versão `0.1.0-alpha.1` está em validação.
 
 ## Integridade
 
@@ -33,7 +33,7 @@ Cada versão acompanha um arquivo `.sha256` e um manifesto `release.json`. Confi
 Get-FileHash .\HappyTreeNode-Setup-0.1.0-alpha.1-win-x64.exe -Algorithm SHA256
 ```
 
-Compare o resultado com o checksum publicado na mesma release e com o mostrado no Portal. Um checksum confere integridade; não substitui assinatura digital do publicador.
+Compare o resultado com o checksum publicado na mesma release e com o mostrado no Portal.
 
 ## Organização para manutenção
 
