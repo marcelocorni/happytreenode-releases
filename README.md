@@ -1,15 +1,24 @@
-# HappyTreeNode — versões oficiais
+<p align="center">
+  <img src="assets/app-icon.png" width="72" alt="Logo HappyTreeNode">
+</p>
+<p align="center">
+  <img src="assets/happytree-node.png" width="800" alt="Mascote HappyTreeNode — Happy workflows, serious automation.">
+</p>
 
-Repositório de distribuição dos instaladores oficiais do **HappyTreeNode**.
+<h1 align="center">Versões oficiais do HappyTreeNode</h1>
 
-**Happy workflows, serious automation.**
+<p align="center">
+  Automatize tarefas, conecte dados e crie workflows visuais.
+</p>
+<p align="center">
+  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-alpha.1/HappyTreeNode-Setup-0.1.0-alpha.1-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
+  · <a href="https://happytreenode.com.br">Portal</a>
+  · <a href="https://github.com/marcelocorni/happytreenode-releases/releases">Todas as versões</a>
+</p>
 
-- Portal: https://happytreenode.com.br
-- Suporte: suporte@happytreenode.com.br
-- Plataforma desta entrega: Windows x64.
+Repositório de distribuição dos instaladores oficiais do **HappyTreeNode**. O código-fonte do aplicativo não é incluído aqui. O uso depende de cadastro e de uma avaliação ou licença válida.
 
-O código-fonte do aplicativo não é incluído neste repositório. O uso do HappyTreeNode depende de cadastro e de uma avaliação ou licença válida.
-
+Suporte: suporte@happytreenode.com.br
 ## Download
 
 Os instaladores são disponibilizados na seção **Releases** deste repositório. Baixe o arquivo `.exe` da versão desejada e execute-o. O Setup oferece atalhos para Cliente, Servidor Local e desinstalação.
