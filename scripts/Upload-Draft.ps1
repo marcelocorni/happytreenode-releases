@@ -9,6 +9,7 @@ $manifest=Get-Content -LiteralPath (Join-Path $root ('releases/'+$Version+'.json
 if($manifest.version -ne $Version -or $manifest.fileName -cnotmatch '^HappyTreeNode-Setup-[0-9A-Za-z.-]+-win-x64\.exe$'){throw 'Manifesto invalido.'}
 $dist=Join-Path $root ('dist/'+$Version)
 $files=@($manifest.fileName,($manifest.fileName+'.sha256'),'release.json')
+foreach($document in @('CHANGELOG.md','INSTALACAO.md')){if(Test-Path -LiteralPath (Join-Path $dist $document) -PathType Leaf){$files+=$document}}
 foreach($name in $files){if(-not (Test-Path -LiteralPath (Join-Path $dist $name) -PathType Leaf)){throw 'Asset ausente.'}}
 $exe=Join-Path $dist $manifest.fileName
 if((Get-Item -LiteralPath $exe).Length -ne $manifest.bytes -or (Get-FileHash -LiteralPath $exe -Algorithm SHA256).Hash -ine $manifest.sha256){throw 'Checksum do instalador invalido.'}
@@ -36,7 +37,7 @@ try {
     $tag='v'+$Version
     $release=@(Api '/releases?per_page=100'|Where-Object tag_name -eq $tag)|Select-Object -First 1
     if(-not $release){
-        $body=@{tag_name=$tag;target_commitish=(git rev-parse HEAD);name=('HappyTreeNode '+$Version);body=[IO.File]::ReadAllText((Join-Path $root ('release-notes/'+$Version+'.md')));draft=$true;prerelease=$true}|ConvertTo-Json
+        $body=@{tag_name=$tag;target_commitish=(git rev-parse HEAD);name=('HappyTreeNode '+$Version);body=[IO.File]::ReadAllText((Join-Path $root ('release-notes/'+$Version+'.md')));draft=$true;prerelease=$true;make_latest='false'}|ConvertTo-Json
         $release=Api '/releases' $body
     }
     if(-not $release.draft -or [long]$release.id -le 0){throw 'A versao nao e rascunho; nenhum asset sera alterado.'}

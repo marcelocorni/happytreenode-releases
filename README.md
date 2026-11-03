@@ -25,6 +25,8 @@ Os instaladores são disponibilizados na seção **Releases** deste repositório
 
 A versão `0.1.0-alpha.6` está disponível para Windows x64.
 
+A [versão 0.1.0-alpha.7](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-alpha.7) também está disponível no GitHub, com certificados SSL, assinaturas de e-mail/PDF e confirmação humana persistente. O botão principal e o download do Portal permanecem na alpha.6 durante a validação das próximas versões.
+
 ## Integridade
 
 Cada versão acompanha um arquivo `.sha256` e um manifesto `release.json`. Confira o SHA-256 do instalador antes de executá-lo:
@@ -41,6 +43,6 @@ Compare o resultado com o checksum publicado na mesma release e com o mostrado n
 - `release-notes/`: notas destinadas à publicação nas Releases.
 - `dist/<versão>/`: arquivos preparados localmente para upload; pasta ignorada pelo Git.
 
-**Não adicione os executáveis ao Git.** O instalador deve ser anexado como asset de uma GitHub Release. Para a versão atual, os assets estão em `dist/0.1.0-alpha.6/`: o Setup, seu `.sha256` e `release.json`.
+**Não adicione os executáveis ao Git.** O instalador deve ser anexado como asset de uma GitHub Release. Os assets ficam em `dist/<versão>/`: o Setup, seu `.sha256`, `release.json` e, quando presentes, `CHANGELOG.md` e `INSTALACAO.md`.
 
 O origin deste repositório é https://github.com/marcelocorni/happytreenode-releases.git. Para preparar os assets de uma versão em rascunho, use `scripts/Upload-Draft.ps1` com a autenticação existente do Git Credential Manager. O script confere os hashes e não publica a release.

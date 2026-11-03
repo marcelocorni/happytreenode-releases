@@ -30,7 +30,9 @@ try {
     }
     function Assert-Assets($release){
         if($release.tag_name -ne ('v'+$Version) -or [long]$release.id -ne [long]$state.id){throw 'Release diferente da esperada.'}
-        foreach($name in @($manifest.fileName,($manifest.fileName+'.sha256'),'release.json')){
+        $files=@($manifest.fileName,($manifest.fileName+'.sha256'),'release.json')
+        foreach($document in @('CHANGELOG.md','INSTALACAO.md')){if(Test-Path -LiteralPath (Join-Path $dist $document) -PathType Leaf){$files+=$document}}
+        foreach($name in $files){
             $file=Join-Path $dist $name;$asset=@($release.assets|Where-Object name -eq $name)
             if($asset.Count -ne 1){throw 'Asset remoto ausente ou duplicado.'}
             $hash=(Get-FileHash -LiteralPath $file -Algorithm SHA256).Hash.ToLowerInvariant();$size=(Get-Item -LiteralPath $file).Length
@@ -39,7 +41,7 @@ try {
         }
     }
     $release=Api ('/releases/'+$state.id);Assert-Assets $release
-    $body=@{tag_name=('v'+$Version);target_commitish=(git rev-parse HEAD);name=('HappyTreeNode '+$Version);body=[IO.File]::ReadAllText((Join-Path $root ('release-notes/'+$Version+'.md')));draft=$false;prerelease=$true}|ConvertTo-Json
+    $body=@{tag_name=('v'+$Version);target_commitish=(git rev-parse HEAD);name=('HappyTreeNode '+$Version);body=[IO.File]::ReadAllText((Join-Path $root ('release-notes/'+$Version+'.md')));draft=$false;prerelease=$true;make_latest='false'}|ConvertTo-Json
     $release=Api ('/releases/'+$state.id) 'PATCH' $body
     $release=Api ('/releases/tags/v'+$Version);Assert-Assets $release
     if($release.draft -or -not $release.published_at){throw 'A publicacao nao foi confirmada.'}
