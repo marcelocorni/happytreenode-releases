@@ -27,6 +27,8 @@ A versão `0.1.0-alpha.6` está disponível para Windows x64.
 
 A [versão 0.1.0-alpha.7](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-alpha.7) também está disponível no GitHub, com certificados SSL, assinaturas de e-mail/PDF e confirmação humana persistente. O botão principal e o download do Portal permanecem na alpha.6 durante a validação das próximas versões.
 
+A [versão 0.1.0-alpha.8](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-alpha.8) acrescenta cotas e fila de campanhas de e-mail, consulta incremental IMAP e gatilho de chegada de mensagens. É cumulativa e inclui os recursos da alpha.7.
+
 ## Integridade
 
 Cada versão acompanha um arquivo `.sha256` e um manifesto `release.json`. Confira o SHA-256 do instalador antes de executá-lo:
