@@ -11,7 +11,7 @@
   Automatize tarefas, conecte dados e crie workflows visuais.
 </p>
 <p align="center">
-  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-alpha.14/HappyTreeNode-Setup-0.1.0-alpha.14-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
+  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-alpha.15/HappyTreeNode-Setup-0.1.0-alpha.15-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
   · <a href="https://happytreenode.com.br">Portal</a>
   · <a href="https://github.com/marcelocorni/happytreenode-releases/releases">Todas as versões</a>
 </p>
@@ -22,6 +22,8 @@ Suporte: suporte@happytreenode.com.br
 ## Download
 
 Os instaladores são disponibilizados na seção **Releases** deste repositório. Baixe o arquivo `.exe` da versão desejada e execute-o. O Setup oferece atalhos para Cliente, Servidor Local e desinstalação.
+
+A versão [0.1.0-alpha.15](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-alpha.15) está disponível para Windows x64. Inclui correlações de Pearson e Spearman, avaliação de classificação e comparação de sinalizações em painéis interativos. São 177 nós, 64 cenários e 89 workflows de exemplo.
 
 A versão [0.1.0-alpha.14](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-alpha.14) está disponível para Windows x64. Inclui leitura e exportação Parquet, transformações em lote, Switch e novas repetições, com 174 nós, 62 cenários e 87 workflows de exemplo.
 
@@ -38,7 +40,7 @@ As versões [alpha.11](https://github.com/marcelocorni/happytreenode-releases/re
 Cada versão acompanha um arquivo `.sha256` e um manifesto `release.json`. Confira o SHA-256 do instalador antes de executá-lo:
 
 ```powershell
-Get-FileHash .\HappyTreeNode-Setup-0.1.0-alpha.14-win-x64.exe -Algorithm SHA256
+Get-FileHash .\HappyTreeNode-Setup-0.1.0-alpha.15-win-x64.exe -Algorithm SHA256
 ```
 
 Compare o resultado com o checksum publicado na mesma release e com o mostrado no Portal.
