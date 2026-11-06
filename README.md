@@ -11,7 +11,7 @@
   Automatize tarefas, conecte dados e crie workflows visuais.
 </p>
 <p align="center">
-  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-alpha.17/HappyTreeNode-Setup-0.1.0-alpha.17-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
+  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-alpha.18/HappyTreeNode-Setup-0.1.0-alpha.18-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
   · <a href="https://happytreenode.com.br">Portal</a>
   · <a href="https://github.com/marcelocorni/happytreenode-releases/releases">Todas as versões</a>
 </p>
@@ -22,6 +22,8 @@ Suporte: suporte@happytreenode.com.br
 ## Download
 
 Os instaladores são disponibilizados na seção **Releases** deste repositório. Baixe o arquivo `.exe` da versão desejada e execute-o. O Setup oferece atalhos para Cliente, Servidor Local e desinstalação.
+
+A versão [0.1.0-alpha.18](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-alpha.18) inclui espera persistente, webhooks locais, tabelas de projeto e deduplicação entre execuções. São 196 nós, 73 cenários e 99 workflows de exemplo.
 
 A versão [0.1.0-alpha.17](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-alpha.17) inclui anexação de linhas, desdobramento de listas JSON, compactação e extração ZIP, leitura XML e RSS e busca por metadados. São 186 nós, 68 cenários e 94 workflows de exemplo.
 
@@ -44,7 +46,7 @@ As versões [alpha.11](https://github.com/marcelocorni/happytreenode-releases/re
 Cada versão acompanha um arquivo `.sha256` e um manifesto `release.json`. Confira o SHA-256 do instalador antes de executá-lo:
 
 ```powershell
-Get-FileHash .\HappyTreeNode-Setup-0.1.0-alpha.17-win-x64.exe -Algorithm SHA256
+Get-FileHash .\HappyTreeNode-Setup-0.1.0-alpha.18-win-x64.exe -Algorithm SHA256
 ```
 
 Compare o resultado com o checksum publicado na mesma release e com o mostrado no Portal.
