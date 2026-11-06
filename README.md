@@ -11,7 +11,7 @@
   Automatize tarefas, conecte dados e crie workflows visuais.
 </p>
 <p align="center">
-  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-alpha.19/HappyTreeNode-Setup-0.1.0-alpha.19-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
+  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-alpha.20/HappyTreeNode-Setup-0.1.0-alpha.20-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
   · <a href="https://happytreenode.com.br">Portal</a>
   · <a href="https://github.com/marcelocorni/happytreenode-releases/releases">Todas as versões</a>
 </p>
@@ -22,6 +22,8 @@ Suporte: suporte@happytreenode.com.br
 ## Download
 
 Os instaladores são disponibilizados na seção **Releases** deste repositório. Baixe o arquivo `.exe` da versão desejada e execute-o. O Setup oferece atalhos para Cliente, Servidor Local e desinstalação.
+
+A versão [0.1.0-alpha.20](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-alpha.20) inclui comandos em grupos do WhatsApp Web, síntese de voz local com Kokoro e respostas com play direto na conversa. São 200 nós, 76 cenários e 104 workflows de exemplo.
 
 A versão [0.1.0-alpha.19](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-alpha.19) inclui post-its no canvas, título, cor e nota por nó, consulta por campo e verificação de existência nas tabelas do projeto. São 197 nós, 74 cenários e 100 workflows de exemplo.
 
@@ -48,7 +50,7 @@ As versões [alpha.11](https://github.com/marcelocorni/happytreenode-releases/re
 Cada versão acompanha um arquivo `.sha256` e um manifesto `release.json`. Confira o SHA-256 do instalador antes de executá-lo:
 
 ```powershell
-Get-FileHash .\HappyTreeNode-Setup-0.1.0-alpha.19-win-x64.exe -Algorithm SHA256
+Get-FileHash .\HappyTreeNode-Setup-0.1.0-alpha.20-win-x64.exe -Algorithm SHA256
 ```
 
 Compare o resultado com o checksum publicado na mesma release e com o mostrado no Portal.
