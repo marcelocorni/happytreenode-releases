@@ -11,7 +11,7 @@
   Automatize tarefas, conecte dados e crie workflows visuais.
 </p>
 <p align="center">
-  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-alpha.20/HappyTreeNode-Setup-0.1.0-alpha.20-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
+  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-alpha.22.3/HappyTreeNode-Setup-0.1.0-alpha.22.3-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
   · <a href="https://happytreenode.com.br">Portal</a>
   · <a href="https://github.com/marcelocorni/happytreenode-releases/releases">Todas as versões</a>
 </p>
@@ -22,6 +22,8 @@ Suporte: suporte@happytreenode.com.br
 ## Download
 
 Os instaladores são disponibilizados na seção **Releases** deste repositório. Baixe o arquivo `.exe` da versão desejada e execute-o. O Setup oferece atalhos para Cliente, Servidor Local e desinstalação.
+
+A versão [0.1.0-alpha.22.3](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-alpha.22.3) inclui APIs Google (Drive, Planilhas, Docs, Apresentações, Forms e Classroom), cores de fundo/texto dos nós e post-its, anotações recolhíveis, recuperação de horários, ordenação em disco e Markdown para HTML/PDF. São 229 nós, 86 cenários e 121 workflows de exemplo. O workspace padrão passa para happytreenode, **sem migração automática da pasta anterior**; consulte as instruções da release.
 
 A versão [0.1.0-alpha.20](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-alpha.20) inclui comandos em grupos do WhatsApp Web, síntese de voz local com Kokoro e respostas com play direto na conversa. São 200 nós, 76 cenários e 104 workflows de exemplo.
 
@@ -50,7 +52,7 @@ As versões [alpha.11](https://github.com/marcelocorni/happytreenode-releases/re
 Cada versão acompanha um arquivo `.sha256` e um manifesto `release.json`. Confira o SHA-256 do instalador antes de executá-lo:
 
 ```powershell
-Get-FileHash .\HappyTreeNode-Setup-0.1.0-alpha.20-win-x64.exe -Algorithm SHA256
+Get-FileHash .\HappyTreeNode-Setup-0.1.0-alpha.22.3-win-x64.exe -Algorithm SHA256
 ```
 
 Compare o resultado com o checksum publicado na mesma release e com o mostrado no Portal.
