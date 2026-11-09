@@ -11,7 +11,7 @@
   Automatize tarefas, conecte dados e crie workflows visuais.
 </p>
 <p align="center">
-  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-alpha.25.1/HappyTreeNode-Setup-0.1.0-alpha.25.1-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
+  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-alpha.26.2/HappyTreeNode-Setup-0.1.0-alpha.26.2-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
   · <a href="https://happytreenode.com.br">Portal</a>
   · <a href="https://github.com/marcelocorni/happytreenode-releases/releases">Todas as versões</a>
 </p>
@@ -20,11 +20,13 @@ Repositório de distribuição dos instaladores oficiais do **HappyTreeNode**. O
 
 Suporte: suporte@happytreenode.com.br
 
-No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 13 categorias de recursos e 12 rotinas ilustrativas: bancos, Google Workspace, bots, documentos, voz com Kokoro, certificados, captura web, dimensionamento e outras possibilidades. A apresentação foi atualizada em 09/11/2026; o download continua na alpha.25.1.
+No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 13 categorias de recursos e 12 rotinas ilustrativas: bancos, Google Workspace, bots, documentos, voz com Kokoro, certificados, captura web, dimensionamento e outras possibilidades. A apresentação foi atualizada em 09/11/2026; o download está na alpha.26.2, com 255 nós, 104 cenários e 164 workflows.
 
 ## Download
 
 Os instaladores são disponibilizados na seção **Releases** deste repositório. Baixe o arquivo `.exe` da versão desejada e execute-o. O Setup oferece atalhos para Cliente, Servidor Local e desinstalação.
+
+A versão [0.1.0-alpha.26.2](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-alpha.26.2) inclui Firebird, MongoDB próprio/Atlas, PostgreSQL hospedado, exclusão de conexões, SQL e transformações em disco, expressões tipadas e calendários reutilizáveis. Corrige a consulta PostgreSQL em disco e a ordenação numérica dos exemplos. São 255 nós, 104 cenários e 164 workflows em 25 plugins. Os 17 workflows novos 98–104.2 foram homologados pelo usuário. Manual atualizado, instalador cumulativo e dependências incluídas.
 
 A versão [0.1.0-alpha.25.1](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-alpha.25.1) inclui diagramas Mermaid, mapas mentais, SWOT, planos de ação, leitura de esquemas SQL e exportação HTML/SVG/PNG/PDF, com a correção de acentos homologada. São 243 nós, 97 cenários e 147 workflows em 25 plugins. Exemplos 92–97 e manual atualizado, incluindo compartilhamento por WhatsApp, e-mail, Telegram e Discord. É cumulativa e preserva os recursos anteriores.
 
@@ -61,7 +63,7 @@ As versões [alpha.11](https://github.com/marcelocorni/happytreenode-releases/re
 Cada versão acompanha um arquivo `.sha256` e um manifesto `release.json`. Confira o SHA-256 do instalador antes de executá-lo:
 
 ```powershell
-Get-FileHash .\HappyTreeNode-Setup-0.1.0-alpha.25.1-win-x64.exe -Algorithm SHA256
+Get-FileHash .\HappyTreeNode-Setup-0.1.0-alpha.26.2-win-x64.exe -Algorithm SHA256
 ```
 
 Compare o resultado com o checksum publicado na mesma release e com o mostrado no Portal.
