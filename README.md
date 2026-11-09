@@ -20,7 +20,7 @@ Repositório de distribuição dos instaladores oficiais do **HappyTreeNode**. O
 
 Suporte: suporte@happytreenode.com.br
 
-No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 13 categorias de recursos e 12 rotinas ilustrativas: bancos, Google Workspace, bots, documentos, voz com Kokoro, certificados, captura web, dimensionamento e outras possibilidades. A apresentação foi atualizada em 09/11/2026; o download está na alpha.26.2, com 255 nós, 104 cenários e 164 workflows.
+No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 13 rotinas ilustrativas: bancos, Google Workspace, bots, documentos, voz com Kokoro, certificados, captura web, dimensionamento e outras possibilidades. A apresentação inclui Aiven, Supabase, Layerbase e Neon pelo PostgreSQL, além de Firebird e MongoDB/Atlas, com seus ícones e uma rotina do banco hospedado ao relatório. A apresentação foi atualizada em 09/11/2026; o download está na alpha.26.2, com 255 nós, 104 cenários e 164 workflows.
 
 ## Download
 
