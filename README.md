@@ -19,6 +19,9 @@
 Repositório de distribuição dos instaladores oficiais do **HappyTreeNode**. O código-fonte do aplicativo não é incluído aqui. O uso depende de cadastro e de uma avaliação ou licença válida.
 
 Suporte: suporte@happytreenode.com.br
+
+No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 13 categorias de recursos e 12 rotinas ilustrativas: bancos, Google Workspace, bots, documentos, voz com Kokoro, certificados, captura web, dimensionamento e outras possibilidades. A apresentação foi atualizada em 09/11/2026; o download continua na alpha.25.1.
+
 ## Download
 
 Os instaladores são disponibilizados na seção **Releases** deste repositório. Baixe o arquivo `.exe` da versão desejada e execute-o. O Setup oferece atalhos para Cliente, Servidor Local e desinstalação.
