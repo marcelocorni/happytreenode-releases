@@ -11,7 +11,7 @@
   Automatize tarefas, conecte dados e crie workflows visuais.
 </p>
 <p align="center">
-  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-alpha.29/HappyTreeNode-Setup-0.1.0-alpha.29-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
+  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-alpha.30/HappyTreeNode-Setup-0.1.0-alpha.30-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
   · <a href="https://happytreenode.com.br">Portal</a>
   · <a href="https://github.com/marcelocorni/happytreenode-releases/releases">Todas as versões</a>
 </p>
@@ -20,11 +20,13 @@ Repositório de distribuição dos instaladores oficiais do **HappyTreeNode**. O
 
 Suporte: suporte@happytreenode.com.br
 
-No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 13 rotinas ilustrativas: bancos, Google Workspace, bots, documentos, voz com Kokoro, certificados, captura web, dimensionamento e outras possibilidades. A apresentação inclui Aiven, Supabase, Layerbase e Neon pelo PostgreSQL, além de Firebird e MongoDB/Atlas, com seus ícones e uma rotina do banco hospedado ao relatório. A apresentação foi atualizada em 09/11/2026; o download está na alpha.29, com 261 nós, 112 cenários e 179 workflows.
+No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 13 rotinas ilustrativas: bancos, Google Workspace, bots, documentos, voz com Kokoro, certificados, captura web, dimensionamento e outras possibilidades. A apresentação inclui Aiven, Supabase, Layerbase e Neon pelo PostgreSQL, além de Firebird e MongoDB/Atlas, com seus ícones e uma rotina do banco hospedado ao relatório. A apresentação foi atualizada em 09/11/2026; o download está na alpha.30, com 261 nós, 114 cenários e 184 workflows.
 
 ## Download
 
 Os instaladores são disponibilizados na seção **Releases** deste repositório. Baixe o arquivo `.exe` da versão desejada e execute-o. O Setup oferece atalhos para Cliente, Servidor Local e desinstalação.
+
+A versão [0.1.0-alpha.30](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-alpha.30) inclui conjuntos em disco de até 512 MiB/5 milhões de linhas, otimizações de agrupamento/junção/ordenação, diagnóstico no histórico e gestão de modelos com exclusão protegida. São 261 nós, 114 cenários e 184 workflows em 25 plugins. Os cinco workflows 113–114.2 foram homologados pelo usuário. Instalador cumulativo, manual atualizado e dependências embarcadas.
 
 A versão [0.1.0-alpha.29](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-alpha.29) inclui classificação multiclasse local em CPU, avaliação por classe, matriz de confusão e painéis HTML interativos offline. São 261 nós, 112 cenários e 179 workflows em 25 plugins. Os quatro workflows 111–112.2 foram homologados pelo usuário. Instalador cumulativo, manual atualizado e dependências embarcadas.
 
