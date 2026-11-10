@@ -20,7 +20,7 @@ Repositório de distribuição dos instaladores oficiais do **HappyTreeNode**. O
 
 Suporte: suporte@happytreenode.com.br
 
-No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 13 rotinas ilustrativas: bancos, Google Workspace, bots, documentos, voz com Kokoro, certificados, captura web, dimensionamento e outras possibilidades. A apresentação inclui Aiven, Supabase, Layerbase e Neon pelo PostgreSQL, além de Firebird e MongoDB/Atlas, com seus ícones e uma rotina do banco hospedado ao relatório. A apresentação foi atualizada em 09/11/2026; o download está na alpha.30, com 261 nós, 114 cenários e 184 workflows.
+No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 15 rotinas ilustrativas: bancos, Google Workspace, bots, documentos, voz com Kokoro, certificados, captura web, dimensionamento e outras possibilidades. A apresentação inclui Aiven, Supabase, Layerbase e Neon pelo PostgreSQL, além de Firebird e MongoDB/Atlas, com seus ícones e uma rotina do banco hospedado ao relatório. A apresentação foi atualizada em 10/11/2026; o download está na alpha.30, com 261 nós, 114 cenários e 184 workflows. A vitrine detalha SDCA multiclasse, avaliação por classe, conjuntos em disco, recuperação, diagnóstico e gestão de modelos, com exemplos de classificação de registros e consolidação de arquivos grandes.
 
 ## Download
 
