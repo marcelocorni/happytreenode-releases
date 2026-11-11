@@ -11,7 +11,7 @@
   Automatize tarefas, conecte dados e crie workflows visuais.
 </p>
 <p align="center">
-  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-alpha.36/HappyTreeNode-Setup-0.1.0-alpha.36-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
+  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-alpha.37/HappyTreeNode-Setup-0.1.0-alpha.37-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
   · <a href="https://happytreenode.com.br">Portal</a>
   · <a href="https://github.com/marcelocorni/happytreenode-releases/releases">Todas as versões</a>
 </p>
@@ -20,11 +20,13 @@ Repositório de distribuição dos instaladores oficiais do **HappyTreeNode**. O
 
 Suporte: suporte@happytreenode.com.br
 
-No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 19 rotinas ilustrativas, incluindo download em lote do Google Drive, classificação local de imagens ONNX, bancos de dados, bots e automação de documentos. A alpha.36 reúne 272 nós, 126 cenários e 199 workflows de exemplo.
+No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 21 rotinas ilustrativas, incluindo download em lote do Google Drive, classificação local de imagens ONNX, bancos de dados, bots e automação de documentos. A alpha.37 reúne 273 nós, 133 cenários e 206 workflows de exemplo.
 
 ## Download
 
 Os instaladores são disponibilizados na seção **Releases** deste repositório. Baixe o arquivo `.exe` da versão desejada e execute-o. O Setup oferece atalhos para Cliente, Servidor Local e desinstalação.
+
+A versão [0.1.0-alpha.37](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-alpha.37) acrescenta sete Landing Pages interativas, incluindo catálogo, agenda e diretório com fichas sobre o mapa. Os exemplos 127 a 133 foram homologados. Instalações da alpha.36 podem atualizar pelo ZIP incremental no Studio.
 
 A versão [0.1.0-alpha.36](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-alpha.36) inclui anexação e deduplicação de conjuntos em disco e histórico agrupado por laço e item. Os exemplos 124 a 126 foram homologados. Instalações da alpha.35.2 podem atualizar pelo ZIP incremental no Studio.
 
