@@ -11,7 +11,7 @@
   Automatize tarefas, conecte dados e crie workflows visuais.
 </p>
 <p align="center">
-  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-alpha.34/HappyTreeNode-Setup-0.1.0-alpha.34-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
+  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-alpha.35.2/HappyTreeNode-Setup-0.1.0-alpha.35.2-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
   · <a href="https://happytreenode.com.br">Portal</a>
   · <a href="https://github.com/marcelocorni/happytreenode-releases/releases">Todas as versões</a>
 </p>
@@ -20,11 +20,13 @@ Repositório de distribuição dos instaladores oficiais do **HappyTreeNode**. O
 
 Suporte: suporte@happytreenode.com.br
 
-No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 19 rotinas ilustrativas, incluindo download em lote do Google Drive, classificação local de imagens ONNX, bancos de dados, bots e automação de documentos. A alpha.34 reúne 270 nós, 123 cenários e 196 workflows de exemplo.
+No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 19 rotinas ilustrativas, incluindo download em lote do Google Drive, classificação local de imagens ONNX, bancos de dados, bots e automação de documentos. A alpha.35.2 reúne 270 nós, 123 cenários e 196 workflows de exemplo.
 
 ## Download
 
 Os instaladores são disponibilizados na seção **Releases** deste repositório. Baixe o arquivo `.exe` da versão desejada e execute-o. O Setup oferece atalhos para Cliente, Servidor Local e desinstalação.
+
+A versão [0.1.0-alpha.35.2](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-alpha.35.2) inclui a atualização automática incremental para Windows. No teste de homologação, o HTN concluiu os 105 downloads do workflow 121 antes de reiniciar o Servidor Local. A versão instalada e a verificação manual ficam em **Conta e licença**.
 
 A versão [0.1.0-alpha.34](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-alpha.34) inclui busca paginada no Google Drive, exportação de documentos Google com o nome original e diagnóstico por arquivo em transferências. Os exemplos 121 a 123 foram homologados.
 
