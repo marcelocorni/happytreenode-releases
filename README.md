@@ -20,7 +20,7 @@ Repositório de distribuição dos instaladores oficiais do **HappyTreeNode**. O
 
 Suporte: suporte@happytreenode.com.br
 
-No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 21 rotinas ilustrativas, incluindo download em lote do Google Drive, classificação local de imagens ONNX, bancos de dados, bots e automação de documentos. A alpha.37 reúne 273 nós, 133 cenários e 206 workflows de exemplo.
+No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 20 rotinas ilustrativas, incluindo download em lote do Google Drive, classificação local de imagens ONNX, bancos de dados, bots e automação de documentos. A alpha.37 reúne 273 nós, 133 cenários e 206 workflows de exemplo.
 
 ## Download
 
