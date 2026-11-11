@@ -11,7 +11,7 @@
   Automatize tarefas, conecte dados e crie workflows visuais.
 </p>
 <p align="center">
-  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-alpha.31/HappyTreeNode-Setup-0.1.0-alpha.31-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
+  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-alpha.32/HappyTreeNode-Setup-0.1.0-alpha.32-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
   · <a href="https://happytreenode.com.br">Portal</a>
   · <a href="https://github.com/marcelocorni/happytreenode-releases/releases">Todas as versões</a>
 </p>
@@ -20,11 +20,13 @@ Repositório de distribuição dos instaladores oficiais do **HappyTreeNode**. O
 
 Suporte: suporte@happytreenode.com.br
 
-No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 16 rotinas ilustrativas, incluindo bancos de dados, Google Workspace, bots, voz com Kokoro e automação de documentos. A vitrine mostra a conversão de DOCX para PDF, a geração de PDF/A-2b e a validação com relatório JSON. A alpha.31 reúne 264 nós, 116 cenários e 189 workflows de exemplo.
+No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 17 rotinas ilustrativas, incluindo classificação local de imagens ONNX, bancos de dados, Google Workspace, bots e automação de documentos. A alpha.32 reúne 267 nós, 118 cenários e 191 workflows de exemplo.
 
 ## Download
 
 Os instaladores são disponibilizados na seção **Releases** deste repositório. Baixe o arquivo `.exe` da versão desejada e execute-o. O Setup oferece atalhos para Cliente, Servidor Local e desinstalação.
+
+A versão [0.1.0-alpha.32](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-alpha.32) inclui preparação de JPEG e PNG, registro de classificadores ONNX compatíveis e inferência local em CPU. Os exemplos 117 e 118, homologados pelo usuário, classificam uma foto e uma pasta com exportação para CSV.
 
 A versão [0.1.0-alpha.31](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-alpha.31) inclui conversão local de DOCX para PDF e PDF/A-2b, validação PDF/A com veraPDF e a opção **Usar o nome do DOCX** nos dois conversores. Os cinco workflows dos cenários 115 e 116 foram homologados. O instalador inclui os motores locais e o manual offline.
 
@@ -73,7 +75,7 @@ As versões [alpha.11](https://github.com/marcelocorni/happytreenode-releases/re
 Cada versão acompanha um arquivo `.sha256` e um manifesto `release.json`. Confira o SHA-256 do instalador antes de executá-lo:
 
 ```powershell
-Get-FileHash .\HappyTreeNode-Setup-0.1.0-alpha.31-win-x64.exe -Algorithm SHA256
+Get-FileHash .\HappyTreeNode-Setup-0.1.0-alpha.32-win-x64.exe -Algorithm SHA256
 ```
 
 Compare o resultado com o checksum publicado na mesma release e com o mostrado no Portal.
