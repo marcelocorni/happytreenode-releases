@@ -11,7 +11,7 @@
   Automatize tarefas, conecte dados e crie workflows visuais.
 </p>
 <p align="center">
-  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-alpha.37/HappyTreeNode-Setup-0.1.0-alpha.37-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
+  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-beta.1/HappyTreeNode-Setup-0.1.0-beta.1-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
   · <a href="https://happytreenode.com.br">Portal</a>
   · <a href="https://github.com/marcelocorni/happytreenode-releases/releases">Todas as versões</a>
 </p>
@@ -20,11 +20,13 @@ Repositório de distribuição dos instaladores oficiais do **HappyTreeNode**. O
 
 Suporte: suporte@happytreenode.com.br
 
-No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 20 rotinas ilustrativas, incluindo download em lote do Google Drive, classificação local de imagens ONNX, bancos de dados, bots e automação de documentos. A alpha.37 reúne 273 nós, 133 cenários e 206 workflows de exemplo.
+No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 20 rotinas ilustrativas, incluindo download em lote do Google Drive, classificação local de imagens ONNX, bancos de dados, bots e automação de documentos. A beta.1 reúne 273 nós, 133 cenários e 206 workflows de exemplo.
 
 ## Download
 
 Os instaladores são disponibilizados na seção **Releases** deste repositório. Baixe o arquivo `.exe` da versão desejada e execute-o. O Setup oferece atalhos para Cliente, Servidor Local e desinstalação.
+
+A versão [0.1.0-beta.1](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-beta.1) é a primeira beta para Windows x64. Se você usa a alpha.37, encerre o Servidor Local e execute o Setup completo da beta.1 na mesma pasta de instalação. O upgrade foi homologado com preservação do workspace e do histórico.
 
 A versão [0.1.0-alpha.37](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-alpha.37) acrescenta sete Landing Pages interativas, incluindo catálogo, agenda e diretório com fichas sobre o mapa. Os exemplos 127 a 133 foram homologados. Instalações da alpha.36 podem atualizar pelo ZIP incremental no Studio.
 
