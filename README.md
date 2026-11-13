@@ -11,7 +11,7 @@
   Automatize tarefas, conecte dados e crie workflows visuais.
 </p>
 <p align="center">
-  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-beta.2/HappyTreeNode-Setup-0.1.0-beta.2-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
+  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-beta.3/HappyTreeNode-Setup-0.1.0-beta.3-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
   · <a href="https://happytreenode.com.br">Portal</a>
   · <a href="https://github.com/marcelocorni/happytreenode-releases/releases">Todas as versões</a>
 </p>
@@ -20,13 +20,15 @@ Repositório de distribuição dos instaladores oficiais do **HappyTreeNode**. O
 
 Suporte: suporte@happytreenode.com.br
 
-No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 20 rotinas ilustrativas, incluindo download em lote do Google Drive, classificação local de imagens ONNX, bancos de dados, bots e automação de documentos. A beta.2 reúne 274 nós, 134 cenários e 207 workflows de exemplo.
+No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 20 rotinas ilustrativas, incluindo download em lote do Google Drive, classificação local de imagens ONNX, bancos de dados, bots e automação de documentos. A beta.3 reúne 274 nós, 134 cenários e 207 workflows de exemplo.
 
 ## Download
 
 Os instaladores são disponibilizados na seção **Releases** deste repositório. Baixe o arquivo `.exe` da versão desejada e execute-o. O Setup oferece atalhos para Cliente, Servidor Local e desinstalação.
 
-A versão [0.1.0-beta.2](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-beta.2) gera aplicativos CRUD portáteis para tabelas PostgreSQL existentes. O exemplo 134 inclui Clientes, Produtos e Pedidos, com seleção de registros relacionados pelo nome. Para atualizar, encerre o Servidor Local e execute o Setup completo na pasta atual.
+A versão [0.1.0-beta.3](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-beta.3) inclui personalização visual e painel interativo no CRUD portátil PostgreSQL. O exemplo 134 mostra pedidos, volume por produto e margem de contribuição. Quem usa a beta.2 pode atualizar pelo Studio.
+
+A versão [0.1.0-beta.2](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-beta.2) gera aplicativos CRUD portáteis para tabelas PostgreSQL existentes. O exemplo 134 inclui Clientes, Produtos e Pedidos, com seleção de registros relacionados pelo nome. Quem usa a beta.1 pode atualizar para a beta.2 pelo Studio.
 
 A versão [0.1.0-beta.1](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-beta.1) é a primeira beta para Windows x64. Se você usa a alpha.37, encerre o Servidor Local e execute o Setup completo da beta.1 na mesma pasta de instalação. O upgrade foi homologado com preservação do workspace e do histórico.
 
