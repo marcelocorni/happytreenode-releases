@@ -11,7 +11,7 @@
   Automatize tarefas, conecte dados e crie workflows visuais.
 </p>
 <p align="center">
-  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-beta.5/HappyTreeNode-Setup-0.1.0-beta.5-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
+  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-beta.6/HappyTreeNode-Setup-0.1.0-beta.6-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
   · <a href="https://happytreenode.com.br">Portal</a>
   · <a href="https://github.com/marcelocorni/happytreenode-releases/releases">Todas as versões</a>
 </p>
@@ -20,11 +20,13 @@ Repositório de distribuição dos instaladores oficiais do **HappyTreeNode**. O
 
 Suporte: suporte@happytreenode.com.br
 
-No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 20 rotinas ilustrativas, incluindo download em lote do Google Drive, classificação local de imagens ONNX, bancos de dados, bots e automação de documentos. A beta.5 reúne 276 nós, 136 cenários e 209 workflows de exemplo.
+No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 20 rotinas ilustrativas, incluindo download em lote do Google Drive, classificação local de imagens ONNX, bancos de dados, bots e automação de documentos. A beta.6 reúne 276 nós, 137 cenários e 210 workflows de exemplo.
 
 ## Download
 
 Os instaladores são disponibilizados na seção **Releases** deste repositório. Baixe o arquivo `.exe` da versão desejada e execute-o. O Setup oferece atalhos para Cliente, Servidor Local e desinstalação.
+
+A versão [0.1.0-beta.6](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-beta.6) inclui um editor visual nos CRUDs PostgreSQL, Excel local e Google Planilhas. O exemplo 137 mostra menu, campos, relacionamentos e indicadores. Quem usa a beta.5 pode atualizar pelo Studio.
 
 A versão [0.1.0-beta.5](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-beta.5) gera cadastros portáteis a partir das abas do Google Planilhas. O exemplo 136 inclui Clientes, Produtos e Pedidos, painel interativo e autorização própria pelo Google Picker. Quem usa a beta.4 pode atualizar pelo Studio.
 
