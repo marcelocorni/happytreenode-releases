@@ -11,7 +11,7 @@
   Automatize tarefas, conecte dados e crie workflows visuais.
 </p>
 <p align="center">
-  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-beta.8/HappyTreeNode-Setup-0.1.0-beta.8-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
+  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-beta.9/HappyTreeNode-Setup-0.1.0-beta.9-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
   · <a href="https://happytreenode.com.br">Portal</a>
   · <a href="https://github.com/marcelocorni/happytreenode-releases/releases">Todas as versões</a>
 </p>
@@ -20,11 +20,13 @@ Repositório de distribuição dos instaladores oficiais do **HappyTreeNode**. O
 
 Suporte: suporte@happytreenode.com.br
 
-No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 20 rotinas ilustrativas, incluindo download em lote do Google Drive, classificação local de imagens ONNX, bancos de dados, bots e automação de documentos. A beta.8 reúne 278 nós, 139 cenários e 213 workflows de exemplo.
+No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 20 rotinas ilustrativas, incluindo download em lote do Google Drive, classificação local de imagens ONNX, bancos de dados, bots e automação de documentos. A beta.9 reúne 278 nós, 140 cenários e 214 workflows de exemplo.
 
 ## Download
 
 Os instaladores são disponibilizados na seção **Releases** deste repositório. Baixe o arquivo `.exe` da versão desejada e execute-o. O Setup oferece atalhos para Cliente, Servidor Local e desinstalação.
+
+A versão [0.1.0-beta.9](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-beta.9) inclui filtros por campo, ordenação, páginas de 25/50/100 registros e CSV nos CRUDs de bancos e planilhas. A pesquisa de workflows encontra exemplos por nome ou número. Exemplo 140 e busca homologados; quem usa a beta.8 pode atualizar pelo Studio.
 
 A versão [0.1.0-beta.8](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-beta.8) gera CRUDs portáteis para MySQL e MariaDB, com diagnóstico antes da exportação. Os exemplos 139 e 139.2 mostram cadastros de clientes, produtos e pedidos com painel interativo. Quem usa a beta.7 pode atualizar pelo Studio.
 
