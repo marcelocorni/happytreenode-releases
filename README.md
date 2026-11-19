@@ -11,7 +11,7 @@
   Automatize tarefas, conecte dados e crie workflows visuais.
 </p>
 <p align="center">
-  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-beta.10/HappyTreeNode-Setup-0.1.0-beta.10-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
+  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-beta.11/HappyTreeNode-Setup-0.1.0-beta.11-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
   · <a href="https://happytreenode.com.br">Portal</a>
   · <a href="https://github.com/marcelocorni/happytreenode-releases/releases">Todas as versões</a>
 </p>
@@ -20,11 +20,13 @@ Repositório de distribuição dos instaladores oficiais do **HappyTreeNode**. O
 
 Suporte: suporte@happytreenode.com.br
 
-No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 20 rotinas ilustrativas, incluindo download em lote do Google Drive, classificação local de imagens ONNX, bancos de dados, bots e automação de documentos. A beta.10 reúne 278 nós, 141 cenários e 218 workflows de exemplo.
+No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 20 rotinas ilustrativas, incluindo download em lote do Google Drive, classificação local de imagens ONNX, bancos de dados, bots e automação de documentos. A beta.11 reúne 278 nós, 142 cenários e 222 workflows de exemplo.
 
 ## Download
 
 Os instaladores são disponibilizados na seção **Releases** deste repositório. Baixe o arquivo `.exe` da versão desejada e execute-o. O Setup oferece atalhos para Cliente, Servidor Local e desinstalação.
+
+A versão [0.1.0-beta.11](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-beta.11) traz chaves compostas, opções de ENUM nativo e validação numérica para os formulários de CRUD. Os exemplos 142 a 142.4 mostram empresa escolhida pelo nome, códigos gerados pelo banco e produtos filtrados conforme o cliente do pedido. Quem usa a beta.10 pode atualizar pelo Studio.
 
 A versão [0.1.0-beta.10](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-beta.10) permite cadastrar pedidos com vários itens na mesma tela nos CRUDs PostgreSQL, SQL Server, MySQL e MariaDB, com totais calculados e gravação conjunta. O canvas destaca o nó em execução e as esperas por prazo ou confirmação. Exemplos 141 a 141.4 homologados; quem usa a beta.9 pode atualizar pelo Studio. Gere novamente os CRUDs existentes para receber as melhorias.
 
