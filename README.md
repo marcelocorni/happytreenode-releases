@@ -11,7 +11,7 @@
   Automatize tarefas, conecte dados e crie workflows visuais.
 </p>
 <p align="center">
-  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-beta.18/HappyTreeNode-Setup-0.1.0-beta.18-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
+  <a href="https://github.com/marcelocorni/happytreenode-releases/releases/download/v0.1.0-beta.18.1/HappyTreeNode-Setup-0.1.0-beta.18.1-win-x64.exe"><strong>Baixar para Windows x64</strong></a>
   · <a href="https://happytreenode.com.br">Portal</a>
   · <a href="https://github.com/marcelocorni/happytreenode-releases/releases">Todas as versões</a>
 </p>
@@ -20,11 +20,13 @@ Repositório de distribuição dos instaladores oficiais do **HappyTreeNode**. O
 
 Suporte: suporte@happytreenode.com.br
 
-No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 20 rotinas ilustrativas, incluindo download em lote do Google Drive, classificação local de imagens ONNX, bancos de dados, bots e automação de documentos. A beta.18 reúne 279 nós, 151 cenários e 241 workflows de exemplo.
+No [Portal HappyTreeNode](https://happytreenode.com.br/), explore 14 categorias de recursos e 20 rotinas ilustrativas, incluindo download em lote do Google Drive, classificação local de imagens ONNX, bancos de dados, bots e automação de documentos. A beta.18.1 reúne 279 nós, 151 cenários e 241 workflows de exemplo.
 
 ## Download
 
 Os instaladores são disponibilizados na seção **Releases** deste repositório. Baixe o arquivo `.exe` da versão desejada e execute-o. O Setup oferece atalhos para Cliente, Servidor Local e desinstalação.
+
+A versão [0.1.0-beta.18.1](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-beta.18.1) amplia o limite do backup de manutenção e permite limpar arquivos gerados em workspaces maiores. Há Setup completo para Windows x64 e ZIP incremental para quem usa a beta.18.
 
 A versão [0.1.0-beta.18](https://github.com/marcelocorni/happytreenode-releases/releases/tag/v0.1.0-beta.18) traz retenção do histórico, limpeza de arquivos gerados por projeto e compactação do SQLite. Os exemplos 150 e 151 foram homologados. Quem usa a beta.17 pode atualizar pelo Studio.
 
